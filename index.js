@@ -33,3 +33,28 @@ const student = {
 };
 
 console.log(student["physics"]['marks'])
+
+// task 4
+
+let singer = {
+    name: 'Ariana Grande',
+    age: 21,
+    city: 'Gaibandha',
+    isStudent: true
+};
+
+console.log(Object.keys(singer).length)
+
+// task 5
+
+let myObject = {
+
+    name: 'John Doe',
+    age: 25,
+    city: 'Example City',
+    isStudent: true
+};
+for (const key in myObject){
+    console.log("key:",key+" | "+"type:",typeof(myObject[key]))
+    // console.log(key)
+}
